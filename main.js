@@ -8,14 +8,20 @@ var chart = new Chart(ctx, {
         labels: ['0', '30', '60', '90', '120'],
         datasets: [{
             label: 'Zwaartekracht in m.s-2',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
+            backgroundColor: 'green',
+            borderColor: 'white',
             data: [9.81, 6.54, 3.32, 0, 0]
         }]
     },
 
     // Configuration options go here
-    options: {}
+    options: {
+        legend:{
+            display: true,
+            labels: {
+                fontColor: 'white'
+            }
+    }}
 });
 
 var ctx = document.getElementById('snelheid').getContext('2d');
@@ -28,8 +34,8 @@ var chart = new Chart(ctx, {
         labels: ['0', '30', '60', '90', '120'],
         datasets: [{
             label: 'Snelheid in km/h',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
+            backgroundColor: 'orange',
+            borderColor: 'white',
             data: [0, 250, 400, 500, 600]
         }]
     },
@@ -39,7 +45,7 @@ var chart = new Chart(ctx, {
         legend:{
             display: true,
             labels: {
-                fontColor: 'rgb(255, 99, 132)'
+                fontColor: 'white'
             }
         }
     }
@@ -54,9 +60,9 @@ var chart = new Chart(ctx, {
    data: {
         labels: ['0', '30', '60', '90', '120'],
         datasets: [{
-            label: 'Brandstof verbruik',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
+            label: 'Brandstof verbruik in liters',
+            backgroundColor: 'red',
+            borderColor: 'white',
             data: [10000, 9900, 9500, 9000, 8900]
         }]
     },
@@ -66,7 +72,7 @@ var chart = new Chart(ctx, {
         legend:{
             display: true,
             labels: {
-                fontColor: 'rgb(255, 99, 132)'
+                fontColor: 'white'
             }
         }
     }
@@ -75,16 +81,16 @@ var chart = new Chart(ctx, {
 var ctx = document.getElementById('voedsel').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
-    type: 'bar',
+    type: 'pie',
 
     // The data for our dataset
    data: {
-        labels: ['0', '30', '60', '90', '120'],
+        labels: ['brood', 'rijst', 'groente', 'vlees'],
         datasets: [{
             label: 'Soorten voedsel',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
-            data: [10000, 9900, 9500, 9000, 8900]
+            backgroundColor: 'purple',
+            borderColor: 'white',
+            data: [20, 30, 40, 30,]
         }]
     },
 
@@ -93,7 +99,7 @@ var chart = new Chart(ctx, {
         legend:{
             display: true,
             labels: {
-                fontColor: 'rgb(255, 99, 132)'
+                fontColor: 'white'
             }
         }
     }
@@ -101,16 +107,16 @@ var chart = new Chart(ctx, {
 var ctx = document.getElementById('water').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
-    type: 'bar',
+    type: 'doughnut',
 
     // The data for our dataset
    data: {
-        labels: ['0', '30', '60', '90', '120'],
+        labels: ['gebruikt', 'water'],
         datasets: [{
             label: 'Aantal liters water aanwezig',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
-            data: [10000, 9900, 9500, 9000, 8900]
+            backgroundColor: 'blue',
+            borderColor: 'white',
+            data: [100, 400]
         }]
     },
 
@@ -119,7 +125,7 @@ var chart = new Chart(ctx, {
         legend:{
             display: true,
             labels: {
-                fontColor: 'rgb(255, 99, 132)'
+                fontColor: 'white'
             }
         }
     }
