@@ -1,0 +1,47 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+  
+    grid-template-areas: 
+          "header"
+          "menu"
+          "main"
+          "ad1"
+          "ad2"
+          "ad3"
+          "ad4"
+          "ad5"; 
+  }
+
+  .header{
+    grid-area: header;
+  } 
+  
+  .main{
+    grid-area: main;
+  }
+  
+  .grafiek1 {
+    grid-area: ad1;
+  }
+  
+  .grafiek2 {
+    grid-area: ad2;
+  }
+  
+  .grafiek3 {
+    grid-area: ad3;
+  }
+
+  .grafiek4 {
+    grid-area: ad4;
+  }
+
+  .grafiek5 {
+    grid-area: ad5;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+  }
