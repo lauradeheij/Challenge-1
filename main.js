@@ -8,7 +8,7 @@ var chart = new Chart(ctx, {
         labels: ['0', '30', '60', '90', '120'],
         datasets: [{
             label: 'Zwaartekracht in m.s-2',
-            backgroundColor: 'green',
+            backgroundColor: 'rgb(0,116,227)',
             borderColor: 'white',
             data: [9.81, 6.54, 3.32, 0, 0]
         }]
@@ -34,7 +34,7 @@ var chart = new Chart(ctx, {
         labels: ['0', '30', '60', '90', '120'],
         datasets: [{
             label: 'Snelheid in km/h',
-            backgroundColor: 'orange',
+            backgroundColor: '#8c3bc5',
             borderColor: 'white',
             data: [0, 250, 400, 500, 600]
         }]
@@ -61,7 +61,7 @@ var chart = new Chart(ctx, {
         labels: ['0', '30', '60', '90', '120'],
         datasets: [{
             label: 'Brandstof verbruik in liters',
-            backgroundColor: 'red',
+            backgroundColor:'rgb(52, 146, 61, 1)',
             borderColor: 'white',
             data: [10000, 9900, 9500, 9000, 8900]
         }]
@@ -88,7 +88,7 @@ var chart = new Chart(ctx, {
         labels: ['brood', 'rijst', 'groente', 'vlees'],
         datasets: [{
             label: 'Soorten voedsel',
-            backgroundColor: 'purple',
+            backgroundColor: ['#be9785', '#f4eeeb', '#9ac99b', 'rgb(146, 52, 62, 1)'],
             borderColor: 'white',
             data: [20, 30, 40, 30,]
         }]
@@ -114,7 +114,7 @@ var chart = new Chart(ctx, {
         labels: ['gebruikt', 'water'],
         datasets: [{
             label: 'Aantal liters water aanwezig',
-            backgroundColor: 'blue',
+            backgroundColor: ['rgb(205,255,255)', 'rgb(52, 76, 146, 1)'],
             borderColor: 'white',
             data: [100, 400]
         }]

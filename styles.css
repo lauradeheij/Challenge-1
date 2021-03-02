@@ -19,6 +19,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    width: 300px;
 }
 
 .main p{
@@ -27,35 +28,42 @@ body{
     display: flex;
     padding: 10px;
     padding-top: 30px;
+    padding-bottom: 30px;
     width: 500px;
+    text-align: center;
 }
 
 p{font-family:'robotoregular';
     font-size: 0.94em;
     color: white;
 }
+aside p{
+    text-align: center;
+    margin-top: 20px;
+}
 
 .chart1{
     max-width: 400px;
-    margin: 50px auto;
+    margin: 20px 10px 40px 10px;
 }
 
 .chart2{
     max-width: 400px;
-    margin: 50px auto;
+    margin: 20px 10px 40px 10px;
 }
 
 .chart3{
     max-width: 400px;
-    margin: 50px auto;
+    margin: 20px auto 40px auto;
+
 }
 
 .chart4{
     max-width: 400px;
-    margin: 50px auto;
+    margin: 20px auto 40px auto;
 }
 
 .chart5{
     max-width: 400px;
-    margin: 50px auto;
+    margin: 20px auto 40px auto;
 }
