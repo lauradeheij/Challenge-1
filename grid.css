@@ -58,9 +58,31 @@ body{
       "ad5    ad5"; 
     }
    
-    nav ul li {
-      padding: 0.5em;
-    }
+    .chart1{
+      max-width: 260px;
+      margin: 40px auto;
+  }
+  
+  .chart2{
+      max-width: 260px;
+      margin: 40px auto;
+  }
+  
+  .chart3{
+      max-width: 260px;
+      margin: 40px auto;
+  
+  }
+  
+  .chart4{
+      max-width: 260px;
+      margin: 40px auto;
+  }
+  
+  .chart5{
+      max-width: 260px;
+      margin: 40px auto;
+  }
 
     @media only screen and (min-width: 901px){
         body{
@@ -74,6 +96,10 @@ body{
           "ad4 ad5 ad5"; 
         }
 
+        .main p{
+          width: 600px;
+        } 
+
       @media only screen and (min-width: 1201px){
          body{
             display: grid;
@@ -84,3 +110,28 @@ body{
             "ad1 ad2 ad3 ad4"
             "ad5 ad5 ad5 ad5"; 
             }
+         
+            .chart1{
+              max-width: 300px;
+              margin-bottom: 10px;
+          }
+          
+          .chart2{
+              max-width: 300px;
+              margin-bottom: 10px;
+          }
+          
+          .chart3{
+              max-width: 300px;
+              margin-bottom: 10px;
+          }
+          
+          .chart4{
+              max-width: 300px;
+              margin-bottom: 10px;
+          }
+          
+          .chart5{
+              max-width: 300px;
+              margin-bottom: 10px;
+          }
