@@ -78,6 +78,10 @@ body{
       max-width: 260px;
   }
 
+  .main p{
+    width: 450px;
+  }
+
     @media only screen and (min-width: 901px){
         body{
           display: grid;
